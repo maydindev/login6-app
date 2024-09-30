@@ -10,6 +10,15 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'dirty-white': 'rgba(255, 255, 255, 0.5)', // Example custom color
+      },
+      backgroundImage: {
+        'custom-image': "url(/backgroundImage.png)",
+      },
+      backgroundSize: {
+        'size-200': '200%',
+        'size-150': '150%',
+        'custom-size': '1200px 800px',
       },
     },
   },
